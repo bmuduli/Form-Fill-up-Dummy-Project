@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css" />
+    <title>Sign up Form</title>
+  </head>
+  <body>
+    <div class="outer-box">
+      <div class="inner-box">
+        <form action="#" method="post"  autocomplete="on">
+            <h1 class="header">Sign up/Register</h1>
+            <p class="paragraph"><span>* </span> Marking are mandatory to fill.</p>
+            <p class="lev">
+                <level for="fname">First Name<span><sup>*</sup></span></level>
+                <input type="text" id="fname" placeholder="Enter First Name" required>
+            </p>
+            <p class="lev">
+                <level for="lname">Last Name<span><sup>*</sup></span></level>
+                <input type="text" id="lname" placeholder="Enter Last Name">
+            </p>
+            <p class="lev">
+                <level for="username">Set User Name<span><sup>*</sup></span></level>
+                <input type="text" id="username" maxlength="16" placeholder="Ex- Example@1234" required>
+            </p>
+            <p class="lev">
+                <level for="password">Set Password <span><sup>*</sup></span></level>
+                <input type="password" id="password" minlength="8" placeholder="Minimum 8 Character"required>
+            </p>
+            <p class="lev">
+                <level for="email">Email Id<span><sup>*</sup></span></level>
+                <input type="email" id="email" placeholder="xyz@gmail.com" required>
+            </p>
+            <p>
+                <input type="submit" class="submit">
+            </p>
+            <p>
+              <level class="signin">Have an Account ? <a href="login.html">Sign in</a></level>
+            </p>
+            <p>
+              <button class="close-btn" type="reset">X</button>
+            </p>
+        </form>
+      </div>
+      <div class="shape left1"></div>
+      <div class="shape left2"></div>
+      <div class="shape right1"></div>
+      <div class="shape right2"></div>
+    </div>
+    <footer>
+      <hr>
+      <div>Made By :: Bishnu Prasad Muduli</div>
+    </footer>
+  </body>
+</html>
